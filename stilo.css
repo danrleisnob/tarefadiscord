@@ -1,0 +1,208 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-height: calc(100vh - 36px); 
+    position: relative;
+}
+
+header {
+    margin: 0px;
+    padding: 35px 0px 36px 0px;
+    background-image: url(file:///S:/SUPERVISORES/05%20DANRLEI%20SOUZA/Base%20de%20Dados%20SIPEC-DECIPEX/CSS/discord/Header%20Background.svg) ;
+    color: #FFFFFF;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: flex;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: Open Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.bottom{
+    width: Hug (550px);
+    height: Hug (44px);
+    gap: 16px;
+    align-items: center;
+    gap: 20px;
+}
+
+.baixar {
+    width: 205px;
+    height: 30px;
+    border-radius: 28px;
+    height: 22px;
+    top: 11px;
+    left: 23px;
+    height: 44px;
+    font-family: Open Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;                
+    background: #ffffff;
+    color: #23272A;
+    border: 0;
+    margin-right: 10px;
+    gap: 20px;
+}
+
+.abra {
+    font-family: Open Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    height: 22px;
+    top: 11px;
+    left: 237px;   
+    color: #ffffff;
+    background: #23272A;
+    border: 0;
+    height: 44px;
+    left: 221px;
+    border-radius: 28px;
+    gap: 20px;
+}
+
+.primeira {
+    width: Hug (971px);
+    height: Hug (394px);
+    top: 499px;
+    left: 154px;
+    gap: 16px;
+    display: flex;
+    width: auto;
+}
+
+.text {
+    font-weight: flex;
+    width: auto;
+    width: 348px;
+    height: 374px;
+    color: #23272A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    font-weight: flex;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+p {
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-size: 1rem;
+}
+.span {
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-size: 1rem;
+
+}
+img {
+    width: Fixed (428px);
+    height: Hug (573px);
+    top: 505px;
+    padding: 40px 24px 40px 24px;
+    gap: 27px;
+    
+}
+
+.segunda {
+    text-align: center;
+    align-items: center;
+}
+.texts {
+    font-weight: flex;
+    width: auto;
+    height: 374px;
+    color: #23272A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    font-weight: flex;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+footer {
+    width: auto;
+    padding: 35px 0px 36px 0px;
+    background: #23272A;
+    text-align: center;
+    margin-top: auto;
+}
+
+/*Iphone 13pro max*/
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  @url screen and (max-width: 480px) 
+  {
+    .heeder-large-screen{
+        display:block !important;
+    }}
+
+    @media (max-width: 600px) {
+        .primeira {
+            display: flex;
+            flex-direction: column;
+        }
+        .imagem {
+            max-width: 100%; 
+            order: -1;
+            float: left;
+            max-width: 100%;
+            height: auto;
+        }
+    
+        .text {
+            margin-top: 20px;
+            font-size: 18px; 
+            line-height: 1.5; 
+            padding: 0 10px; 
+    }
+    .primeira + .primeira {
+        margin-top: 20px;
+    }
+    footer {
+    
+        padding: 10px 0;
+    }
+        
+    }

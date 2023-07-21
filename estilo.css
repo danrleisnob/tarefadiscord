@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+header {
+    background: cornflowerblue;
+    padding: 60px;
+    text-align: center;
+}
+h2 {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+main {
+    padding: 30px;
+    text-align: center;
+}
+h3 {
+    text-transform: uppercase;
+}
+
+.details {
+    display: flex;
+    gap: 20px;
+    border-radius: 4px;
+}
+
+.card {
+    background-color: azure;
+    padding: 16px;
+    border-radius: 4px;
+}
+.image-card {
+    background-color: lightblue;
+    border: 1px cornflowerblue;
+    padding: 10px;
+}
+
+.image-card img {
+    width: 100%;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 20px;
+}
